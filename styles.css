@@ -45,14 +45,42 @@ img, input, div {
 }
 
 img {
-    width: 40%;
+    width: 25%;
+}
+section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchIcon {
+    margin-right: -40px;
+    z-index: 1;
+    color: rgb(162, 162, 162);
 }
 
 input {
-    width: 50%;
-    height: 3vh;
-    border-radius: 10px;
+    width: 75%;
+    height: 5vh;
+    border-radius: 20px;
     border: 1px solid lightgray;
+    outline: none;
+}
+
+input:hover {
+    box-shadow: rgba(201, 201, 201, 0.557) 0px 0px 3px 2px;
+}
+
+section button {
+    margin-left: -40px;
+    margin-top: -13.5px;
+    border: none;
+    font-size: 14px;
+}
+
+section button:hover {
+    cursor: pointer;
 }
 
 div {
@@ -63,13 +91,18 @@ div {
 
 .button1, .button2 {
     background-color: rgb(241, 241, 241);
-    height: 4vh;
-    border-radius: 10px;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 5px;
+    border: none;
+    color: rgb(108, 108, 108);
+    font-size: 12px;
 }
 
 .button1:hover, .button2:hover {
     cursor: pointer;
     border: 1px solid lightgray;
+    color: black;
 }
 
 footer {
